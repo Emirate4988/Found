@@ -3,127 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar with Dropdowns, Search Bar, and Logo</title>
-    <link rel="stylesheet" href="./index2.css">
+    <title>FOUNDATION</title>
+    <link rel="stylesheet" href="index1.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#"><img src="./images/logogo.jpg" alt="Logo"></a>
-            </div>
+        <nav class="navbarr">
+            <!-- Logo -->
+            <a href="#" class="logo">Andrew Elifoh Foundation</a>
+            
+            <!-- Navbar Links -->
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li class="dropdown">
-                    <a href="#products" class="dropbtn">Products</a>
-                    <!-- <div class="dropdown-content">
-                        <a href="#">Laptops</a>
-                        <a href="#">Smartphones</a>
-                        <a href="#">Accessories</a>
-                    </div> -->
+                    <a href="#">Services</a>
+                    <ul class="dropdown-content">
+                        <li><a href="./index2.html">Youth Empowerment</a></li>
+                        <li><a href="#">Modern Technologies Training</a></li>
+                        <li><a href="#">Spiritual seminars</a></li>
+                    </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="/form.html" class="dropbtn">Get Started</a>
+                    <a href="#">About Us</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Mission Statement</a></li>
+                    </ul>
                 </li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <div class="search-container">
-                <form action="/search">
-                    <input type="text" placeholder="Search..." name="search">
-                    <button type="submit">Search</button>
-                </form>
+            
+            <!-- Search Form -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
             </div>
+            
+            <!-- Hamburger Menu Icon for Mobile View -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
         </nav>
     </header>
     <div class="img1">
-        <img src="./images/immg.jpg" alt="" class="img1">
+        <img src="./images/front.JPG" class="img2">
+        <div class="soci">
+            <h2 class="ifs">Making The Society <br> A Better Place</h2>
+        </div>      
     </div>
-    <div id="products">
-        <h1 class="clou">Cloud Cataloging</h1>
-        <p class="clo">
-            Your library has never looked so good.
-            Books, Novels, Magazines.
-        </p>
-    </div>
-    <div class="wra">
-        
-        <div class="wrap">
-            <!-- <img src="./images/lib2.jpeg" alt="" class="img2"> -->
-            <a href="https://oceanofpdf.com/authors/ginny-not-genie/the-wrong-woman/">
-                <img src="./images/imgg.jpg" alt="" class="wrap1">
-                <p>
-                    Author:	Ginny Not Genie
-                    Genre:  Romance, Novels, Adults
+    
+    <section>
+        <div class="aimm">
+            <h1 class="aim">Aims and Objectives</h1>
+            <div class="obj">
+                <img src="./images/nuturing child.avif" alt="" class="img3">
+                <p class="nuture">To nuture and develop student academically for a better future</p>
+            </div>
+            <div class="obj">
+                <img src="./images/scholarship.jpg" alt="" class="img3">
+                <p class="nuture">
+                    To provide scholarship programs 
+                    for children who cannot afford to pay their school fees
                 </p>
-            </a>
-        
-        </div>
-        <div class="wrap">
-           <a href="https://oceanofpdf.com/authors/donald-goines/pdf-whoreson-download/">
-               <img src="./images/imgg1.jpg" alt="" class="wrap1">
-               <p>
-                   Author: Donald Goines <br>
-                   Genre: Mystery, Novels, African American Literature,     
-               </p>
-           </a>
-        </div>
-        <div class="wrap">
-            <a href="https://oceanofpdf.com/authors/mat-johnson/pdf-epub-pym-download/">
-                <img src="./images/imgg2.jpg" alt="" class="wrap1">
-                <p>
-                    Author: Mat Johnson
-                    Genre: Race,  African American, Contemporary, Cultural
+            </div>
+            <div class="obj">
+                <img src="./images/study-group.avif" alt="" class="img3">
+                <p class="nuture">
+                    To provide quality education across all levels for children who cannot pay 
                 </p>
-            </a>
-        </div>
-        <div class="wrap">
-           <a href="https://oceanofpdf.com/authors/youme-landowne/pdf-pitch-black-download/">
-            <img src="./images/imgg3.jpg" alt="" class="wrap1">
-            <p>
-                Author: Youme Landowne
-                Language: English
-                Genre: Graphic Novels, Graphic Novels Comics, Teen, Young Adult, African American, Art
-
-            </p>
-           </a>
-        </div>
-    </div>
-    <div class="blackk" id="contact">
-        <div class="bigbox">
-            <div class="box">
-                <h3>Platform</h3>
-                <h4>Home</h4>
-                <h4>Pricing</h4>
-                <h4>Login</h4>
-                <a href="./form.html"><h4>Signup</h4></a>
-                
             </div>
-            <div class="box">
-                <h3>Learn</h3>
-                <h4>Contact</h4>
-                <h4>Support</h4>
-                <h4>Carrer</h4>
-                <h4>Blog</h4>
+            <div class="obj">
+                <img src="./images/spiritual.avif" alt="" class="img3">
+                <p class="nuture">To develop and groom children spiritually for a better future as well as attending seminars,
+                    bible studies and also participating in quiz competion.
+                </p>
             </div>
-            <div class="box">
-                <h3>Policies</h3>
-                <h4>Privacy</h4>
-                <h4>Security</h4>
-                <h4>Terms</h4>
-                <h4>Sitemaps</h4>
-            </div>
-            <div class="box">
-                <h3>Social</h3>
-                <h4>Youtube</h4>
-                <h4>tiktok</h4>
-                <h4>histagram   </h4>
-                <h4>home</h4>
-            </div>    
-           
         </div>
-    </div>
+        <div class="big-box">
+            <div>
 
+            </div>
+        </div>
+    </section>
 
-    <script src="./index1.js"></script>
+    <script src="index1.js"></script>
 </body>
 </html>
